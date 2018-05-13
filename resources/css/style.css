@@ -227,7 +227,7 @@ header {
   margin: 5px 0;
 }
 
-/* Main Navi */
+/* Main Nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -256,7 +256,7 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
-/* Sticky Navi */
+/* Sticky Nav */
 .sticky {
   position: fixed;
   top: 0;
@@ -264,9 +264,10 @@ header {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.98);
   box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
 }
 
-.main-nav { margin-top: 18px; }
+.sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
